@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <script>
+            function convertUsdToEur(input) {
+                let dollars = parseFloat(input);
+                let euro = dollars * 0.883795087;
+                console.log("Euro: " + euro);
+            }            
+        </script>
+        Dollars: <input type="text" id="dollarsBox" />
+        <button onclick="convertUsdToEur()">Convert</button>
+        Euro: <input type="text" id="eurosBox" readonly />
+    </body>
+</html>
