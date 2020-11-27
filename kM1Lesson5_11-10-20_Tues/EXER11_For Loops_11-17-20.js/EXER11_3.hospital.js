@@ -10,10 +10,8 @@ function main(days, listPatientPerDay) {
         }
         if (patients >= doctors) {
             patientsUntreated += (patients - doctors);
-            patientsTreated += doctors;
-        } else {
-            patientsTreated += patients;
-        }    
+        }
+        patientsTreated += doctors;
     }
     console.log(`Treated patients: ${patientsTreated}.`);
     console.log(`Untreated patients: ${patientsUntreated}.`);

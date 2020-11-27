@@ -8,3 +8,6 @@ function main() {
 }
 
 main();
+
+// console.log([...new Array(1000).keys()].filter((elem) => elem % 10 === 7).join(' ')); 
+// This works too...

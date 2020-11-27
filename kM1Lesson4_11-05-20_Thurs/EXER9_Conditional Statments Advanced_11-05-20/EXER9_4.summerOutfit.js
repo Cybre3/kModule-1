@@ -7,23 +7,17 @@ function main(degreesCelcius, timeOfDay) {
         if (timeOfDay === 'Morning') {
             outfit = 'Sweatshirt';
             shoes = 'Sneakers';
-        } else if (timeOfDay === 'Afternoon') {
-            outfit = 'Shirt';
-            shoes = 'Moccasins';
-        } else if (timeOfDay === 'Evening') {
+        } else if (timeOfDay === 'Afternoon' || timeOfDay === 'Evening') {
             outfit = 'Shirt';
             shoes = 'Moccasins';
         }
     } else if (degreesCelcius > 18 && degreesCelcius <= 24) {
-        if (timeOfDay === 'Morning') {
+        if (timeOfDay === 'Morning' || timeOfDay === 'Evening') {
             outfit = 'Shirt';
             shoes = 'Moccasins';
         } else if (timeOfDay === 'Afternoon') {
             outfit = 'T-Shirt';
             shoes = 'Sandals';
-        } else if (timeOfDay === 'Evening') {
-            outfit = 'Shirt';
-            shoes = 'Moccasins';
         }
     } else if (degreesCelcius >= 25) {
         if (timeOfDay === 'Morning') {
