@@ -3,8 +3,9 @@
 ​3 times by 2 minutes​ to buy ​computer hardware​ -- 6 min total for PC parts
 2 times by 2 minutes​ to buy ​software -- 4 min for software
 
-Write a Program That Calculates How Much time He Spent During His Break 
-and How Much Time He Had to Relax after Shopping Online and Buying a White Frappe.
+Calculates How Much time He Spent During His Break 
+and How Much Time He Had to Relax after Shopping Online 
+and Buying a White Frappe.
 
 Input
 •   First line ​rest time​ 
