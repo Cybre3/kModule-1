@@ -10,9 +10,9 @@ discounts:
     • drink without sugar,
         35% discount.
     • "Espresso" selected, 
-        if drink >= 5, 
+        if number of drinks > 5, 
             25% discount.
-    • if amount exceeds $15, 
+    • if final price exceeds $15, 
         20% discount from final price.
         
 The discounts are applied in the order of their description.
@@ -84,7 +84,6 @@ function main(drink, amountSugar, numDrinks) {
     
     if (amountSugarUP === 'WITHOUT') {
         drinkPrice -= drinkPrice * 0.35; // from drink
-        price = drinkPrice * numDrinks;
     }
     if (drinkUP === 'ESPRESSO' && numDrinks > 5) {
         drinkPrice -= drinkPrice * 0.25; // from drink
